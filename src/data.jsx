@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Anna',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Miene',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '19 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Nigerian',
   },
 
   {
@@ -91,19 +91,19 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Lagos, Nigeria',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+234 704 286 6030',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'annalise00tare@gmail.com',
   },
 
   {
@@ -115,20 +115,20 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Spanish, English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '3+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '7+',
     title: 'Completed <br /> Projects',
   },
 
@@ -140,7 +140,7 @@ export const stats = [
 
   {
     id: 4,
-    no: '53+',
+    no: '0+',
     title: ' Awards <br /> Won',
   },
 ];
@@ -205,7 +205,7 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '95',
   },
 
   {
@@ -222,32 +222,32 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'React',
+    percentage: '85',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'Typescript',
+    percentage: '75',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'Node',
+    percentage: '75',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'ExpressJS',
     percentage: '65',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'Vue',
+    percentage: '85',
   },
 ];
 
