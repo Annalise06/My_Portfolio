@@ -34,6 +34,16 @@
   --weight-600: 600;
   --weight-700: 700;
   --weight-800: 800;
+}
+  /* THEME */
+
+  .dark-theme {
+  --title-color: hsl( 0, 0%, 100%);
+  --text-color: hsl( 0, 0%, 80%);
+  --body-color: hsl( 0, 0%, 7%);
+  --container-color: hsl( 0, 1%, 17%);
+  --border-color: hsl( 0, 0%, 15%);
+  }
 
   /* BASE */
   * {
@@ -79,7 +89,7 @@
 
   /* REUSABLE CSS  */
   .container {
-    max-width: 1140px;
+    max-width: 1040px;
     margin-inline: auto;
     padding-inline: 15px;
   }
@@ -150,5 +160,12 @@
     z-index: 1; 
   }
   
-}
+  @media (max-width: 768px) {
+    .grid {
+      gap: 0px;
+    }
 
+    .container {
+      /* max-width: fit-content; */
+    }
+  }

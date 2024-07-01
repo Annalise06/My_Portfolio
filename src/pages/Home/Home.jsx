@@ -18,9 +18,10 @@ const Home = () => {
                 </h1>
 
                 <p className="home_description">
-                    I am a Nigerian-based Web Designer & Full-stack Developer 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sit debitis dignissimos repellendus mollitia aliquid ipsam! 
+                    I am a passionate Web Designer and Full-stack Developer based in Nigeria. I specialize in crafting dynamic, 
+                    user-friendly web applications that blend creativity with robust functionality. 
+                    With a keen eye for design and a commitment to excellence, I transform ideas into impactful digital experiences. 
+                    Let's create something extraordinary together. 
                 </p>
 
                 <Link to="/about" className='button'>
