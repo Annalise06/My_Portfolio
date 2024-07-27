@@ -95,6 +95,22 @@
     line-height: 64px;
 }
 
+.button_text {
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+    transition: color 0.3s ease-out;
+}
+
+.button:hover {
+    color: var(--text-white);
+  }
+
+/* .button_text:hover {
+    color: var(--text-white);
+  } */
+
 @media (max-width: 768px) {
     .contact_container {
         grid-template-columns: 1fr;

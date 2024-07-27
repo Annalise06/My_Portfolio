@@ -60,13 +60,13 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
+    title: 'FirstName : ',
     description: 'Anna',
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
+    title: 'LastName : ',
     description: 'Miene',
   },
 
@@ -107,15 +107,9 @@ export const personalInfo = [
   },
 
   {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
     id: 10,
-    title: 'Langages : ',
-    description: 'Spanish, English',
+    title: 'Languages : ',
+    description: 'English',
   },
 ];
 
@@ -150,54 +144,27 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2022 - PRESENT',
+    title: 'Web Developer <span> Freelance </span>',
+    desc: 'Designed and developed various websites for small businesses and individuals, <br/> Worked with clients to understand their requirements and deliver custom solutions.',
   },
 
   {
     id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
-
-  {
-    id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2020',
+    title: 'Secondary School Certificate <span>Highstone College</span>',
+    desc: 'Achievements: Participated in science fairs, member of the math club, and volunteered in community service projects.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2024',
+    title: 'Undergraduate <span> African Leadership University </span>',
+    desc: 'I just got admitted into ALU.',
   },
 ];
 
