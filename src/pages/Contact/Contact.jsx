@@ -59,7 +59,7 @@ const Contact = () => {
             <FaX />
           </a>
 
-          <a href="https://www.linkedin.com/in/anna-miene06/" className="contact_social-link">
+          <a href="https://www.linkedin.com/in/anna-miene-a59493237" className="contact_social-link">
             <FaLinkedinIn />
           </a>
 
