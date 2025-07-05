@@ -14,7 +14,7 @@ import Work2 from './assets/colorgen.jpg';
 import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/gosto.jpg';
 import Work5 from './assets/ichooru.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work6 from './assets/fitclub.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -350,32 +350,60 @@ export const portfolio = [
   },
 
   {
-    id: 6,
+    id: 7,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Fit-Club',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Fit-Club',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'REACT / TAILWINDCSS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: <a style={{color: "cyan"}} href="https://fit-club-xi-seven.vercel.app/">fit-club.org</a>,
       },
     ],
   },
+
+  // {
+  //   id: 7,
+  //   img: Work6,
+  //   title: 'Photo Editing',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Photo',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'Adobe Photoshop',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: 'www.dibble.com',
+  //     },
+  //   ],
+  // },
 ];
 
 export const themes = [
