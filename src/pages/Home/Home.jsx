@@ -18,10 +18,10 @@ const Home = () => {
                 </h1>
 
                 <p className="home_description">
-                    I am a passionate Web Designer and Full-stack Developer based in Nigeria. I specialize in crafting dynamic, 
-                    user-friendly web applications that blend creativity with robust functionality. 
-                    With a keen eye for design and a commitment to excellence, I transform ideas into impactful digital experiences. 
-                    Let's create something extraordinary together. 
+                    I'm a Full Stack Engineer and student at the University of Lagos, based in Nigeria. 
+                    I build web applications using React, Node.js, and other modern tools to create responsive, 
+                    scalable, and efficient solutions. I enjoy working on both frontend and backend, 
+                    and I'm always learning new ways to improve my code and user experience. 
                 </p>
 
                 <Link to="/about" className='button'>
