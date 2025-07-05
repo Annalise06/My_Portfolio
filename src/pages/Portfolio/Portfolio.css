@@ -97,13 +97,16 @@
     display: flex;
 }
 
-.item_title, .item_details {
+.item_title {
     color: var(--title-color);
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
+    font-weight: var(--weight-700);
 }
 
 .item_details {
+    color: var(--title-color);
     font-weight: var(--weight-600);
+    font-size: x-small;
 }
 
 .modal_img {

@@ -12,8 +12,8 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
+import Work4 from './assets/gosto.jpg';
+import Work5 from './assets/ichooru.jpg';
 import Work6 from './assets/project-6.jpg';
 
 import Theme1 from './assets/purple.png';
@@ -72,42 +72,36 @@ export const personalInfo = [
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '19 Years',
-  },
-
-  {
-    id: 4,
     title: 'Nationality : ',
     description: 'Nigerian',
   },
 
   {
-    id: 5,
+    id: 4,
     title: 'Freelance : ',
     description: 'Available',
   },
 
   {
-    id: 6,
+    id: 5,
     title: 'Address : ',
     description: 'Lagos, Nigeria',
   },
 
   {
-    id: 7,
+    id: 6,
     title: 'Phone : ',
     description: '+234 704 286 6030',
   },
 
   {
-    id: 8,
+    id: 7,
     title: 'Email : ',
     description: 'annalise00tare@gmail.com',
   },
 
   {
-    id: 10,
+    id: 8,
     title: 'Languages : ',
     description: 'English',
   },
@@ -116,7 +110,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '2+',
+    no: '3+',
     title: 'Years of <br /> Experience',
   },
 
@@ -163,8 +157,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2024',
-    title: 'Undergraduate <span> African Leadership University </span>',
-    desc: 'I just got admitted into ALU.',
+    title: 'Undergraduate <span> University of Lagos (UNILAG) </span>',
+    desc: 'Bsc Industrial Mathematics with applied computer science - 1st Year Student.',
   },
 ];
 
@@ -306,27 +300,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'E-commerce App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'GOSTO APP',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'None',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React/CSS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a style={{color: "orange"}} href="https://gosto-ecomm.vercel.app/">Gosto.app</a>,
       },
     ],
   },
@@ -338,11 +332,11 @@ export const portfolio = [
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Ichooru',
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'None',
       },
       {
         title: 'Language : ',
@@ -350,7 +344,7 @@ export const portfolio = [
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a style={{color: "cyan"}} href="https://ichooru.vercel.app/">ichooru.app</a>,
       },
     ],
   },
