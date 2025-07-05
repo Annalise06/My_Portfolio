@@ -29,8 +29,13 @@ Welcome to my personal portfolio website! This is a modern and responsive site t
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/my-username/my-portfolio.git
+cd your-portfolio-folder
+```
+### 2. Install Dependencies (if using a framework)
+
+```bash
+npm install
 ```
 
 ### 3. Start Development Server
@@ -72,7 +77,5 @@ Feel free to use it as a template for your own portfolio!
 ## 🙌 Acknowledgments
 
 Inspired by portfolio designs from the developer community.
-
-```
 
 ---

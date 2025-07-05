@@ -259,12 +259,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'HTML/CSS/JS',
+        desc: 'HTML / CSS / JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '',
+        desc: <div>View Repo: <a href="https://github.com/Annalise06/Background-Generator">Background Color Gen</a></div>,
       },
     ],
   },
